@@ -63,7 +63,7 @@ RoadRunner (v2023.3.12) has been installed into C:\yii3-rr/rr.exe
 ````
 C:\yii3-rr>md generated
 ````
-
+**Create a proto file in proto directroy (#Protoc-plugin)[https://roadrunner.dev/docs/plugins-grpc#protoc-plugin]**
 ````
 C:\yii3-rr>protoc --plugin=protoc-gen-php-grpc.exe --php_out=./generated --php-grpc_out=./generated proto/pinger.proto
 ````
