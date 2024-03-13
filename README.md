@@ -1,7 +1,7 @@
 # yii3-rr
 A Yiisoft RoundRunner Server installation illustrated with Google Remote Procedure Call (gRPC) and Windows Command Prompt
 
-## Windows 11 php8.1 Preparation
+## Windows 11 php8.1 Preparation##
 C:\wamp64\bin\php\php8.1.13\phpForApache.ini (approx line 940) extension=php-grpc.dll
 Search Environment Variables...System Variables...path 
 Path 1: C:\wamp64\bin\php\php8.1.13
@@ -19,7 +19,7 @@ Zend Engine v4.1.13, Copyright (c) Zend Technologies
     with Zend OPcache v8.1.13, Copyright (c), by Zend Technologies
     with Xdebug v3.1.6, Copyright (c) 2002-2022, by Derick Rethans
 
-## Useful commands
+## Useful commands ##
 C:\>cd yii3-rr
 C:\yii3-rr>composer require yiisoft/yii-runner-roadrunner
 
@@ -67,7 +67,7 @@ C:\yii3-rr>composer update
 
 Edit rr.yaml line 3 and 4 commands interchangeably.
 
-## server: command: 'php DotRrYii3ServerCommandWorker.php' 
+## server: command: 'php DotRrYii3ServerCommandWorker.php' #
 
 C:\yii3-rr>rr.exe serve
 
@@ -83,7 +83,7 @@ C:\yii3-rr>rr.exe serve
 [INFO] RoadRunner server started; version: 2023.3.12, buildtime: 2024-02-29T18:24:04+0000
 [INFO] sdnotify: not notified
 
-##  server: command: 'php DotRrSpiralServerCommandWorker.php'
+##  server: command: 'php DotRrSpiralServerCommandWorker.php' #
 
 2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 8352, "internal_event_name": "EventWorkerConstruct"}
 2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 15032, "internal_event_name": "EventWorkerConstruct"}
