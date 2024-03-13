@@ -14,6 +14,7 @@ C:\yii3-rr>php ./vendor/bin/rr download-protoc-binary
 ````
 
 Search Environment Variables...System Variables...path
+
 Path 2: C:\protoc-25.3-win64\bin  
 
 ````
