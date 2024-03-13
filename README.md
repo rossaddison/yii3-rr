@@ -98,30 +98,4 @@ Edit rr.yaml line 3 and 4 commands interchangeably.
 
 ## server: command: 'php DotRrYii3ServerCommandWorker.php' #
 
-C:\yii3-rr>rr.exe serve
-
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 6932, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 8032, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 11568, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 13064, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 9536, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 9432, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 13920, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        DEBUG   server          worker is allocated     {"pid": 6808, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:30:36+0000        INFO    grpc            grpc server was started {"address": "tcp://127.0.0.1:9001"}
-[INFO] RoadRunner server started; version: 2023.3.12, buildtime: 2024-02-29T18:24:04+0000
-[INFO] sdnotify: not notified
-
 ##  server: command: 'php DotRrSpiralServerCommandWorker.php' #
-
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 8352, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 15032, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 12812, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 6620, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 13652, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 10992, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 6652, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        DEBUG   server          worker is allocated     {"pid": 10784, "internal_event_name": "EventWorkerConstruct"}
-2024-03-13T16:47:09+0000        INFO    grpc            grpc server was started {"address": "tcp://127.0.0.1:9001"}
-[INFO] RoadRunner server started; version: 2023.3.12, buildtime: 2024-02-29T18:24:04+0000
-[INFO] sdnotify: not notified
