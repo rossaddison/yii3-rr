@@ -80,7 +80,7 @@ C:\yii3-rr\generated>dir /p
 
 ## Copy rossaddison/yii3-rr/generated/GRPC Pinger.php & PingerHttpClient.php into GRPC directory ##
 
-## Update composer.json with to ensure that rr.exe can pick up the generated files: ##
+## Update composer.json with the following to ensure that rr.exe can pick up the generated files: ##
 
 ````
 "autoload": {
