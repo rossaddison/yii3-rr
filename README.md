@@ -1,7 +1,7 @@
 # yii3-rr
 A Yiisoft RoundRunner Server installation illustrated with Google Remote Procedure Call (gRPC) and Windows Command Prompt
 
-## Windows 11 php8.1 Preparation##
+## Windows 11 php8.1 Preparation ##
 C:\wamp64\bin\php\php8.1.13\phpForApache.ini (approx line 940) extension=php-grpc.dll
 Search Environment Variables...System Variables...path 
 Path 1: C:\wamp64\bin\php\php8.1.13
