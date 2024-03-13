@@ -1,0 +1,15 @@
+{
+    "require": {
+        "yiisoft/yii-runner-roadrunner": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "GRPC\\": "generated/GRPC"  
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/config": true
+        }
+    }
+}
